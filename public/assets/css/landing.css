@@ -1,0 +1,80 @@
+.form_item.error input {
+  border: solid 1px #fe8888 !important; }
+  .form_item.error input::-webkit-input-placeholder {
+    color: #fe8888 !important; }
+  .form_item.error input::-moz-placeholder {
+    color: #fe8888 !important; }
+  .form_item.error input:-ms-input-placeholder {
+    color: #fe8888 !important; }
+  .form_item.error input:-moz-placeholder {
+    color: #fe8888 !important; }
+
+input.error {
+  border: solid 1px #fe8888 !important; }
+  input.error::-webkit-input-placeholder {
+    color: #fe8888 !important; }
+  input.error::-moz-placeholder {
+    color: #fe8888 !important; }
+  input.error:-ms-input-placeholder {
+    color: #fe8888 !important; }
+  input.error:-moz-placeholder {
+    color: #fe8888 !important; }
+
+.form_item .error_message {
+  position: absolute;
+  bottom: -20px;
+  font-size: 13px;
+  color: #fe8888; }
+
+.list_no_data {
+  font-size: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  text-align: center; }
+
+.app_landing header {
+  display: flex; }
+  .app_landing header a.logo {
+    display: flex;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+    flex-grow: 1; }
+    .app_landing header a.logo img {
+      width: auto;
+      height: 100%; }
+  .app_landing header .auth_widget {
+    flex-direction: column;
+    align-items: end; }
+    .app_landing header .auth_widget .header_login {
+      display: inline-block;
+      vertical-align: middle;
+      width: 127px;
+      height: 35px;
+      border-radius: 2px;
+      background: #003159;
+      border: none;
+      color: white;
+      text-align: center;
+      padding: 11px 0 9px;
+      box-sizing: border-box;
+      margin: 0 0 0 26px;
+      text-decoration: none; }
+    .app_landing header .auth_widget .header_registration {
+      display: inline-block;
+      vertical-align: middle;
+      width: 127px;
+      height: 35px;
+      border-radius: 2px;
+      background: #05bd94;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      padding: 11px 0 9px;
+      box-sizing: border-box;
+      margin: 0 0 0 12px; }
+
+/*# sourceMappingURL=landing.css.map */
